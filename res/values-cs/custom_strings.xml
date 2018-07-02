@@ -49,6 +49,8 @@
   <string name="adb_over_network_summary">Povolit ladění přes síťové připojení (např. Wi-Fi nebo síť USB). Toto nastavení bude obnoveno po restartu</string>
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">UPOZORNĚNÍ: Pokud je povoleno ADB přes síťové připojení, zařízení je otevřené pro pokusy o průniky na všech připojených sítích, včetně GSM datové sítě!\n\nPoužijte tuto vlastnost pouze pokud jste připojeni k důvěryhodné síti.\n\nOpravdu chcete povolit tuto funkci?</string>
+  <string name="adb_over_network_disable_on_disconnect_title">Zakázat ADB přes síť při odpojení</string>
+  <string name="adb_over_network_disable_on_disconnect_summary">ADB přes síť bude zakázáno při odpojení od Wi-Fi</string>
   <string name="battery_image">Styl ikony baterie</string>
   <string name="battery_image_description">Zobrazit ikonu baterie ve stavové liště</string>
   <string name="twilight_mode_location_dialog">Poloha je zakázána</string>
@@ -80,7 +82,6 @@
   <string name="force_safe_media_volume_disabled_title">Zakázat kontrolu bezpečné hlasitosti</string>
   <string name="force_safe_media_volume_disabled_summary">Neomezovat hlasitost médií pro sluchátka</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">povoleno</string>
   <string name="sim_disabled">zakázáno</string>
   <string name="sim_missing">chybějící nebo vadné</string>
@@ -133,4 +134,24 @@
   <!-- Search -->
   <string name="menu_search">Vyhledávání aplikací</string>
   <string name="menu_search_hint">Vyhledávání aplikací...</string>
+  <!-- Heads up snooze -->
+  <string name="heads_up_category">Prohlížení oznámení</string>
+  <string name="heads_up_snooze_title">Časovač odložení prohlížení oznámení</string>
+  <string name="heads_up_snooze_disabled_summary">Časovač odložení je vypnutý</string>
+  <string name="heads_up_snooze_1min">1 minuta</string>
+  <string name="heads_up_snooze_5min">5 minut</string>
+  <string name="heads_up_snooze_10min">10 minut</string>
+  <string name="heads_up_snooze_15min">15 minut</string>
+  <string name="heads_up_snooze_20min">20 minut</string>
+  <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Časový limit prohlížení oznámení</string>
+  <string name="heads_up_time_out_2sec">2 sekundy</string>
+  <string name="heads_up_time_out_4sec">4 sekundy</string>
+  <string name="heads_up_time_out_5sec">5 sekund</string>
+  <string name="heads_up_time_out_6sec">6 sekund</string>
+  <string name="heads_up_time_out_8sec">8 sekund</string>
+  <string name="heads_up_time_out_10sec">10 sekund</string>
+  <string name="log_category">Historie oznámení</string>
+  <string name="app_package_name_title">Balíček</string>
+  <string name="app_version_title">Verze</string>
 </resources>
